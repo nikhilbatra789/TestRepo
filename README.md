@@ -11,11 +11,11 @@ Please follow the following steps to integrate iOS Beacon Manager. All of these 
 	* BeaconManager.h
 	* BeaconManager.m
 2. Add the following code to your app delegate header (.h) file, inside the interface
-```obj-c
+        ```obj-c
 -(void)startBeaconMonitoring;
 -(void)initializeCoreLocation;
 @property (strong, nonatomic) RCTBridge *kr_bridge;
-```
+        ```
 3. Add the following snippets inside your app delegate implementation (.m) file in the respective sections mentioned below
 	* Add the following import line
 						```obj-c
